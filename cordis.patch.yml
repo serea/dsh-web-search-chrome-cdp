@@ -1,0 +1,11 @@
+# Replace the pinned DeepSeek search backend with this Chrome CDP provider.
+# `config` is replaced wholesale, so fetchProvider is restated.
+- id: web
+  name: '@deepseek-ai/dsh-web'
+  config:
+    searchProvider: chrome-cdp
+    fetchProvider: http
+
+- insert:
+    - id: web-search-chrome-cdp
+      name: '@local/web-search-chrome-cdp'

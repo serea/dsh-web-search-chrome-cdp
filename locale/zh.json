@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chrome CDP 搜索",
+    "description": "用本机已开启调试端口的 Chrome 检索网页，替代搜索 API。"
+  }
+}

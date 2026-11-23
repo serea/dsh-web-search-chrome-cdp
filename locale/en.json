@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chrome CDP search",
+    "description": "Search through the user's running Chrome instead of a search API."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@local/web-search-chrome-cdp",
+  "version": "1.0.0",
+  "description": "Search the web through the user's already-running Chrome via CDP, and use those results as the Harness web_search backend.",
+  "repository": "https://github.com/serea/dsh-web-search-chrome-cdp",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "icon.svg",
+    "locale/*.json",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
